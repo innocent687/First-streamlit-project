@@ -10,7 +10,7 @@ modelTraining = st.container()
 
 @st.cache_data
 def get_data():
-    taxi_data = pd.read_csv("https://drive.google.com/uc?export=download&id=1AeuOT3FjPx4eH-K1u6dc7Pz8DGNw4iT1")
+    taxi_data = pd.read_csv("https://www.dropbox.com/scl/fi/35ymowcp85e0tkve2subg/taxi-data.csv?rlkey=hernpt318gy5cjd7gsf69mm0f&st=lwcgkr2z&dl=1")
     return taxi_data
 with header:
     st.title("Welcome to my awesome data science project!")
